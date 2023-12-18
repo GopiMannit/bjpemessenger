@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-image {
+    background-image: url('./assets/bjp6.png');
+ 
+  }
+.non-scrollable {
+    overflow: hidden;
+}
+.custom-width-sidebar {
+  width: calc(100% - 288px); 
+}
+.content {
+  background-image: url("assets/bjpo.png"); /* Path to your background image */
+  background-size: 50%;
+  background-position: center;
+  z-index: 10;
+  background-repeat: no-repeat; 
+}
+.flowerregister {
+  position: relative;
+  z-index: 1;
+  background-image: url("assets/bjpf.webp"); /* Path to your background image */
+  background-size: 40%;
+  background-position: left 150px center;
+  background-repeat: no-repeat;
+}
+.flowerpassword {
+  position: relative;
+  z-index: 1;
+  background-image: url("assets/bjpf.webp"); /* Path to your background image */
+  background-size: 35%;
+  background-position: left 175px center;
+  background-repeat: no-repeat;
+}
+.butt {
+  position: relative;
+  z-index: -1;
+}
+.orange-header {
+  color: orange;
+}
+.btncolor {
+  background-color: #fb660d;
+}
+.background{
+  background-color:#f26522;
+}
+.hidden {
+  display: none;
+}
+input[type="file"].invisible {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
